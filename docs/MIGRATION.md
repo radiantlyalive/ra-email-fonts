@@ -1,7 +1,7 @@
 # Migration: haidaral/test to ra-email-fonts
 
-Status: DRAFT. Not published. Replace `radiantlyalive` once the GitHub owner is confirmed, then
-check every new URL returns 200 before pasting anything into Klaviyo.
+Status: verified 2026-11-10, tag v1.0.0. All three new URLs were opened in a browser and
+downloaded the font file. Response headers were not checked from the build environment.
 
 Old URLs were read from the inline @font-face rules on https://www.radiantlyalive.com/
 on 10 November 2026. Do not edit, move or delete anything in the old `haidaral/test` repo.
