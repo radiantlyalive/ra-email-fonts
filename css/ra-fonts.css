@@ -1,0 +1,29 @@
+/*
+  Reference copy of the Radiantly Alive font faces.
+  Klaviyo does not load this file. It takes one URL per face in its custom font settings.
+  Replace radiantlyalive and the tag when publishing. Keep family names identical to Klaviyo.
+*/
+
+@font-face {
+  font-family: PPAgrandirText;
+  src: url("https://cdn.jsdelivr.net/gh/radiantlyalive/ra-email-fonts@v1.0.0/fonts/PPAgrandirText-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: PPAgrandirGrande;
+  src: url("https://cdn.jsdelivr.net/gh/radiantlyalive/ra-email-fonts@v1.0.0/fonts/PPAgrandir-GrandRegular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: PPAgrandirGrandeHeavy;
+  src: url("https://cdn.jsdelivr.net/gh/radiantlyalive/ra-email-fonts@v1.0.0/fonts/PPAgrandir-GrandHeavy.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
